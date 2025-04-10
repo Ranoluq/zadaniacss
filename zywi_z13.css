@@ -1,0 +1,15 @@
+.green  { 
+     color: green; 
+     font-size:  37px; 
+     } 
+
+.blue  { 
+    color: blue; 
+    font-size:  47px; 
+    } 
+
+.content {
+     border: 2px solid black;
+     width: 80%;
+     padding: 10px;
+}

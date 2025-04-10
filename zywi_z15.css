@@ -1,0 +1,15 @@
+.green  { 
+     color: #6DA15F; 
+     font-size:  37px; 
+     } 
+
+.blue  { 
+    color: #352551; 
+    font-size:  47px; 
+    } 
+
+.content {
+     border: 2px solid black;
+     width: 80%;
+     padding: 10px;
+}

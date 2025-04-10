@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Sposoby definiowania kolorów</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 28px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sposoby definiowania kolorów w CSS</h1>
+
+  <table>
+    <tr>
+      <th>Sposób</th>
+      <th>Opis</th>
+      <th>Przyk³ad</th>
+    </tr>
+    <tr>
+      <td>Kolor nazwany</td>
+      <td>U¿ycie nazw wbudowanych w CSS</td>
+      <td><code>color: red;</code></td>
+    </tr>
+    <tr>
+      <td>RGB</td>
+      <td>Definiowanie koloru przez wartoœci czerwony, zielony, niebieski (0–255)</td>
+      <td><code>color: rgb(255, 0, 0);</code></td>
+    </tr>
+    <tr>
+      <td>RGBA</td>
+      <td>RGB z kana³em przezroczystoœci (alpha)</td>
+      <td><code>color: rgba(255, 0, 0, 0.5);</code></td>
+    </tr>
+    <tr>
+      <td>HEX</td>
+      <td>Kolor w postaci szesnastkowej</td>
+      <td><code>color: #FF0000;</code></td>
+    </tr>
+    <tr>
+      <td>HSL</td>
+      <td>Odcieñ, nasycenie, jasnoœæ</td>
+      <td><code>color: hsl(0, 100%, 50%);</code></td>
+    </tr>
+    <tr>
+      <td>HSLA</td>
+      <td>HSL z przezroczystoœci¹ (alpha)</td>
+      <td><code>color: hsla(0, 100%, 50%, 0.5);</code></td>
+    </tr>
+  </table>
+
+</body>
+</html>
+<!-- Eryk ¯ywicki --!>

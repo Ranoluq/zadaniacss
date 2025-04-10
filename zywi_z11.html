@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Rodzaje selektorów CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Rodzaje selektorów</h1>
+
+  <ol>
+    <li>Selektory proste
+      <ul>
+        <li>Selektor tagu (np. <code>p</code>, <code>h1</code>)</li>
+        <li>Selektor klasy (np. <code>.klasa</code>)
+          <ul>
+            <li>Stosujemy do wielu elementów</li>
+            <li>U¿ywamy znaku kropki przed nazw¹</li>
+          </ul>
+        </li>
+        <li>Selektor identyfikatora (np. <code>#naglowek</code>)
+          <ul>
+            <li>Unikalny dla jednego elementu</li>
+            <li>Poprzedzony znakiem hash (#)</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+    <li>Selektory z³o¿one
+      <ul>
+        <li>Potomków (np. <code>div p</code>)
+          <ul>
+            <li>Dotyczy elementów zagnie¿d¿onych</li>
+          </ul>
+        </li>
+        <li>Dziecka (np. <code>ul > li</code>)
+          <ul>
+            <li>Dotyczy bezpoœredniego potomka</li>
+          </ul>
+        </li>
+        <li>Rodzeñstwa (np. <code>h1 + p</code> lub <code>h1 ~ p</code>)
+          <ul>
+            <li><code>+</code> – pierwszy brat</li>
+            <li><code>~</code> – wszyscy bracia</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+    <li>Selektory specjalne (atrybutowe, pseudoklasy, pseudoelementy)
+      <ul>
+        <li>Atrybutowe (np. <code>input[type="text"]</code>)</li>
+        <li>Pseudoklasy (np. <code>a:hover</code>)
+          <ul>
+            <li>Reaguj¹ na stan (najechanie, klikniêcie, itd.)</li>
+          </ul>
+        </li>
+        <li>Pseudoelementy (np. <code>p::first-line</code>)
+          <ul>
+            <li>Stylizuj¹ czêœci elementu</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ol>
+
+</body>
+</html>
+<!-- Eryk ¯ywicki --!>

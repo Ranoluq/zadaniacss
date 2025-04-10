@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Styl zewnêtrzny</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    table {
+      border: 1px solid black;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    td {
+      white-space: pre-wrap;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>1. Sk³adnia teoretyczna</h1>
+  <table>
+    <tr>
+      <td>
+/* plik style.css */
+body&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;background-color:&nbsp;lightgray;<br>
+}&nbsp;
+      </td>
+    </tr>
+  </table>
+
+  <h1>2. Gdzie wstawiany jest styl zewnêtrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy mo¿e on wystêpowaæ w dokumencie?</h1>
+  <p>Styl zewnêtrzny wstawiany jest w sekcji <code>&lt;head&gt;</code> dokumentu HTML. Odpowiedzialny za to jest znacznik <code>&lt;link&gt;</code>. Mo¿e on wystêpowaæ wiele razy w dokumencie, co pozwala do³¹czaæ wiele plików CSS.</p>
+
+  <h1>3. Najprostsza forma wstawiania stylu zewnêtrznego</h1>
+  <table>
+    <tr>
+      <td>
+&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;link&nbsp;rel=&quot;stylesheet&quot;&nbsp;href=&quot;style.css&quot;&gt;<br>
+&lt;/head&gt;
+      </td>
+    </tr>
+  </table>
+
+  <h1>4. Ile arkuszy styli mo¿e byæ do³¹czanych oraz jaka zasada musi byæ zachowana?</h1>
+  <p>Do jednego dokumentu HTML mo¿na do³¹czyæ wiele arkuszy styli. Wa¿ne jest, aby zachowaæ odpowiedni¹ kolejnoœæ — style z ostatniego do³¹czonego pliku mog¹ nadpisywaæ wczeœniejsze, jeœli zawieraj¹ te same regu³y.</p>
+
+  <h1>5. Co siê dzieje w przypadku konfliktów?</h1>
+  <p>W przypadku konfliktów (te same selektory i cechy w ró¿nych plikach) decyduje kolejnoœæ do³¹czania stylów. Styl za³adowany póŸniej ma wy¿szy priorytet i nadpisuje wczeœniejsze.</p>
+
+  <h1>6. Jak s¹ tworzone i edytowane pliki arkuszy z u¿yciem edytora tekstowego?</h1>
+  <p>Pliki CSS mo¿na tworzyæ i edytowaæ w zwyk³ym edytorze tekstowym (np. Notatnik). Wystarczy zapisaæ plik z rozszerzeniem <code>.css</code> i wpisaæ w nim regu³y stylów.</p>
+
+  <h1>7. Jak s¹ tworzone i edytowane pliki arkuszy z u¿yciem specjalnego edytora CSS?</h1>
+  <p>Specjalne edytory CSS (np. Visual Studio Code, Brackets) oferuj¹ podpowiedzi sk³adni, kolorowanie kodu i sprawdzanie b³êdów, co u³atwia tworzenie i edycjê arkuszy styli.</p>
+
+  <h1>8. Jakie rozszerzenie posiada plik bêd¹cy zewnêtrznym arkuszem styli?</h1>
+  <p>Plik zewnêtrznego arkusza stylów posiada rozszerzenie <code>.css</code>.</p>
+
+  <h1>9. Jakie s¹ zalety zewnêtrznego arkusza styli?</h1>
+  <ol>
+    <li>Oddzielenie struktury strony (HTML) od wygl¹du (CSS).</li>
+    <li>Mo¿liwoœæ u¿ywania jednego arkusza dla wielu stron — ³atwiejsze zarz¹dzanie.</li>
+  </ol>
+
+  <h1>10. Uwagi na temat pisania w CSS</h1>
+  <p>W CSS wa¿ne jest poprawne stosowanie sk³adni: po ka¿dej cesze musi byæ dwukropek, po ka¿dej deklaracji œrednik. Nawiasy klamrowe musz¹ otaczaæ zestaw regu³. Warto te¿ grupowaæ style logicznie i u¿ywaæ komentarzy.</p>
+
+</body>
+</html>
+<!-- Eryk ¯ywicki --!>

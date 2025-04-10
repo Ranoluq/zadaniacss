@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Cechy formatowania HTML i CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #aaa;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e0e0e0;
+    }
+
+    ol {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: disc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Cechy modyfikowania formatowania w HTML oraz CSS</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Cechy</th>
+        <th>HTML</th>
+        <th>CSS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Umiejscowienie stylu</td>
+        <td>Bezpośrednio w znacznikach (atrybuty jak <code>bgcolor</code>, <code>font</code>)</td>
+        <td>Osobno od struktury (zewnętrzne, wewnętrzne lub inline style)</td>
+      </tr>
+      <tr>
+        <td>Rozdzielenie treści i wyglądu</td>
+        <td>Brak</td>
+        <td>Tak</td>
+      </tr>
+      <tr>
+        <td>Możliwość ponownego użycia stylu</td>
+        <td>Ograniczona</td>
+        <td>Wysoka (klasy, ID, selektory)</td>
+      </tr>
+      <tr>
+        <td>Elastyczność formatowania</td>
+        <td>Mała</td>
+        <td>Duża (layouty, animacje, media queries)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Nowe możliwości CSS w porównaniu z HTML</h2>
+  <ol>
+    <li>Tworzenie zaawansowanych układów (Flexbox, Grid)</li>
+    <li>Dodawanie animacji i przejść</li>
+    <li>Dostosowanie stylów do różnych urządzeń (media queries)</li>
+    <li>Stosowanie gradientów, cieni, efektów graficznych</li>
+    <li>Lepsze zarządzanie kolorami, czcionkami i marginesami</li>
+    <li>Użycie zmiennych i pseudo-klas</li>
+  </ol>
+
+  <h2>Wady CSS</h2>
+  <ul>
+    <li>Różna interpretacja przez przeglądarki (problemy z kompatybilnością)</li>
+    <li>Możliwość nadpisywania stylów (konflikty selektorów)</li>
+    <li>Brak pełnej kontroli nad wszystkimi elementami w starszych przeglądarkach</li>
+    <li>Może być trudne do utrzymania w dużych projektach bez dobrej struktury</li>
+  </ul>
+
+</body>
+</html>
+<!-- Eryk Żywicki --!>
