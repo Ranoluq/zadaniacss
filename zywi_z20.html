@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 20 – Style lokalne i liniowe</title>
+    <style>
+        .blok1 {
+            background-color: #FFFDD0; /* kremowy */
+            width: 40%;
+            height: 100%;
+        }
+
+        .blok1 p {
+            color: orange;
+            font-size: 20pt;
+            font-family: Arial, sans-serif;
+        }
+
+        .blok2 {
+            background-color: #FF00FF; /* magenta */
+            width: 15%;
+            height: 80%;
+        }
+
+        .blok2 i {
+            color: green;
+            font-size: 20pt;
+            font-weight: bold;
+        }
+
+        .blok2 strike {
+            color: red;
+            font-size: 20pt;
+        }
+
+        .blok2 u {
+            color: purple;
+            font-size: 20pt;
+            text-decoration: overline;
+        }
+
+        .blok3 {
+            background-color: #00FF7F; /* zieleñ wiosenna */
+            width: 30%;
+            height: 100%;
+        }
+
+        .blok3 h1 {
+            color: blue;
+            font-size: 30pt;
+            text-decoration: underline;
+        }
+
+        .blok3 ol {
+            font-size: 25pt;
+            color: blue;
+        }
+
+        .blok3 ol ol {
+            font-size: 20pt;
+            color: red;
+        }
+
+        .blok3 ol ol ol {
+            font-size: 15pt;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Blok 1 -->
+<div class="blok1">
+    <p>Informatyka to dziedzina zajmuj¹ca siê przetwarzaniem informacji za pomoc¹ komputerów i algorytmów.</p>
+</div>
+
+<!-- Blok 2 -->
+<div class="blok2">
+    <p>
+        <i>Tekst kursyw¹ z kolorem zielonym i pogrubieniem.</i><br>
+        <strike>Przekreœlony tekst na czerwono.</strike><br>
+        <u>Podkreœlony tekst w kolorze fioletowym z nadkreœleniem.</u>
+    </p>
+</div>
+
+<!-- Blok 3 -->
+<div class="blok3">
+    <h1>Lista zagnie¿d¿ona z kolorami i rozmiarem</h1>
+    <ol>
+        <li>Poziom 1
+            <ol>
+                <li>Poziom 2
+                    <ol>
+                        <li>Poziom 3</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+</div>
+
+</body>
+</html>
+
+<!-- Eryk ¯ywicki --!>

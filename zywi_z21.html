@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 21 – U¿ycie ID</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        p {
+            color: green;
+            font-size: 14pt;
+        }
+
+        p#pochyly {
+            font-style: italic;
+            font-size: 20pt;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Zadanie 21 – U¿ycie ID</h1>
+
+<h2>Tabela informacyjna o ID</h2>
+
+<table>
+    <tr>
+        <th>Pojêcie</th>
+        <th>Opis</th>
+    </tr>
+    <tr>
+        <td>Co znaczy skrót ID?</td>
+        <td>Identyfikator – unikalna nazwa przypisana do elementu HTML.</td>
+    </tr>
+    <tr>
+        <td>Jaki jest cel stosowania ID?</td>
+        <td>Pozwala na indywidualne formatowanie jednego, konkretnego elementu na stronie.</td>
+    </tr>
+    <tr>
+        <td>Jakie jest znaczenie znaku #?</td>
+        <td>Znak # u¿ywany jest w arkuszu CSS do odwo³ania siê do ID.</td>
+    </tr>
+    <tr>
+        <td>Jak nastêpuje wywo³anie ID (wraz z wyt³umaczeniem)?</td>
+        <td>
+            W HTML: <code>id="nazwa"</code><br>
+            W CSS: <code>#nazwa { w³aœciwoœci }</code><br>
+            Identyfikator przypisuje siê do elementu, aby go sformatowaæ zgodnie z definicj¹ w arkuszu stylów.
+        </td>
+    </tr>
+    <tr>
+        <td>Uwagi na temat stosowania ID</td>
+        <td>
+            <ol>
+                <li>Ka¿dy ID musi byæ unikalny w obrêbie dokumentu HTML.</li>
+                <li>W odró¿nieniu od klas, ID nie powinno byæ przypisywane do wielu elementów.</li>
+                <li>W przypadku w¹tpliwoœci, czy element wyst¹pi wiêcej ni¿ raz, lepiej u¿yæ klasy (class).</li>
+            </ol>
+        </td>
+    </tr>
+</table>
+
+<h2>Przyk³ad u¿ycia ID</h2>
+
+<p>Ten paragraf ma styl podstawowy: kolor zielony, czcionka 14pt.</p>
+<p id="pochyly">Ten paragraf u¿ywa ID "pochyly": tekst pochylony, czcionka 20pt.</p>
+<p>Ten paragraf równie¿ ma styl podstawowy: kolor zielony, czcionka 14pt.</p>
+
+</body>
+</html>
+
+<!-- Eryk ¯ywicki --!>

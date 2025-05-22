@@ -1,0 +1,39 @@
+p#pogrubienie_zywicki {
+    font-size: 30px;
+    font-weight: bold;
+    color: #8b5dce;
+}
+
+p#pochylona_zywicki {
+    font-size: 35pt;
+    font-style: italic;
+    color: #efc16a;
+}
+
+p#index_gorny_zywicki {
+    font-size: 1cm;
+    vertical-align: super;
+    color: #9f8f1a;
+}
+
+p#index_dolny_zywicki {
+    font-size: 1.5cm;
+    vertical-align: sub;
+    color: rgb(59%, 100%, 100%);
+}
+
+p#mono_zywicki {
+    font-size: 40px;
+    font-family: monospace;
+    color: #1fdf6a;
+}
+
+p#powiekszenie_zywicki {
+    font-size: larger;
+    color: #593f9c;
+}
+
+p#pomniejszenie_zywicki {
+    font-size: smaller;
+    color: rgb(100%, 100%, 56%);
+}
